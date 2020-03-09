@@ -1,0 +1,12 @@
+---
+applications:
+  - name: ICM-CUSTOM-ENCRYPTOR
+    memory: ((memory))
+    instances: ((instances))
+    buildpacks: ((buildpacks))
+    stack: ((stack))
+    path: ((path))
+    disk_quota: ((disk_quota))
+    random-route: ((random-route))
+    routes:
+      - route: ((host))-dev.apps-np.homedepot.com

@@ -1,0 +1,10 @@
+---
+host: ICM-CUSTOM-ENCRYPTOR
+instances: 1
+memory: 1gb
+disk_quota: 1gb
+random-route: false
+buildpacks:
+  - java_buildpack_offline
+stack: cflinuxfs3
+path: ../target/vosm-custom-encryptor-0.0.1.war
