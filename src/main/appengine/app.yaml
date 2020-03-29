@@ -1,0 +1,8 @@
+runtime: java
+env: flex
+service: encryption-api-v1
+runtime_config:
+  jdk: openjdk8
+handlers:
+  - url: /.*
+    script: this field is required, but ignored
