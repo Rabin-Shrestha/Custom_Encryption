@@ -25,8 +25,8 @@
     <div class="container-fluid bg-light myBorder border-primary col-md">
         <form action="/encrypt/" method="post" onsubmit="return true">
             <div class="form-group">
-                <p class="h4">ICM - Encryption Tool</p>
-                <p>This is simple tool to encrypt your credentials.</p>
+                <p class="h4">Custom - Encryption Tool</p>
+                <p>This is simple tool to encrypt your credentials using Jasypt dependency.</p>
             </div>
             <div class="form-group">
                 <input type="text" name="plainText" class="form-control"
