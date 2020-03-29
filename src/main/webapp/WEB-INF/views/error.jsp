@@ -8,9 +8,14 @@
 </head>
 <body>
 <% if (response.getStatus() == 500) { %>
-<font color="red">Error: <%=exception.getMessage() %>
+<h3> Please Check your encryption key!! </h3>
+<h4> Retry again: <a href="/">Main Page</a></h4>
+
+<font color="red">
+    Cause: <%=exception.getCause()  %><br>
+    Class: <%=exception.getClass()  %>
 </font><br>
-Please go to <a href="/">Main Page</a>
+
 <%} %>
 </body>
 </html>
